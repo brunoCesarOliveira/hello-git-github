@@ -9,3 +9,7 @@ git config --global user.emnail 'brunocesardeoliveira2018@gmail.com'  => logando
 git config --global user.name 'Bruno Cesar'                           => logando o github
 git config --global credential.helper cache                           => Salvando o login na maquina 
 git config --global credential.helper 'cache --timeout=3600'          => Salvando por 1hora o login na maquina 
+git branch							                                  => Mostrando as branchs 
+git branch my-first-branch 					                          => Criando uma nova branch
+git checkout my-first-branch                                          => Trocando a branch
+git checkout -b my-second-branch                                      => Trocando a branch 
