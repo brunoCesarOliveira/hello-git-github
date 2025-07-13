@@ -5,6 +5,7 @@ git add                       => Pode adicionar pasta, arquivo , extensão
 git add .                     => Adiciona tudo 
 git commit -m'My message'     => Enviando para o repositorio
 git commit --amend -m My edited Message'                              => Alterand a mensagem do commit
-git config --global user.name 'brunocesardeoliveira2018@gmail.com'    => logando o github
+git config --global user.emnail 'brunocesardeoliveira2018@gmail.com'  => logando o github
+git config --global user.name 'Bruno Cesar'                           => logando o github
 git config --global credential.helper cache                           => Salvando o login na maquina 
 git config --global credential.helper 'cache --timeout=3600'          => Salvando por 1hora o login na maquina 
